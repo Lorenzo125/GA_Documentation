@@ -95,15 +95,15 @@ $(function() {
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;      };</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;   };</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
-<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_evaluate.html#a16a1a916e5a8faa0cb0d208cd4e1a3c7">   31</a></span>&#160;   <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_evaluate.html#a16a1a916e5a8faa0cb0d208cd4e1a3c7">computeCostFit</a>(<a class="code" href="class_population.html">Population</a> &amp;t_pop, TH1F *t_data, TF1 *t_model, <span class="keywordtype">double</span> t_Ndof)</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;   {</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; pop.size(); ++i) {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;         <a class="code" href="class_evaluate.html#aae5632c201511cdd64f8f85716a0408a">computeCostFit</a>(pop[i], t_data, t_model, t_Ndof);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;      };</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;   };</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;};</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="class_evaluate.html#a16a1a916e5a8faa0cb0d208cd4e1a3c7">   30</a></span>&#160;   <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_evaluate.html#a16a1a916e5a8faa0cb0d208cd4e1a3c7">computeCostFit</a>(<a class="code" href="class_population.html">Population</a> &amp;t_pop, TH1F *t_data, TF1 *t_model, <span class="keywordtype">double</span> t_Ndof)</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;   {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0; i &lt; pop.size(); ++i) {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;         <a class="code" href="class_evaluate.html#aae5632c201511cdd64f8f85716a0408a">computeCostFit</a>(pop[i], t_data, t_model, t_Ndof);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;      };</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;   };</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;};</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aclass_chromosome_html_a9100153fdc7ec5353b10340f4bc1e6e5"><div class="ttname"><a href="class_chromosome.html#a9100153fdc7ec5353b10340f4bc1e6e5">Chromosome::getIndicator</a></div><div class="ttdeci">double getIndicator()</div><div class="ttdoc">Return the value of m_indicator</div><div class="ttdef"><b>Definition:</b> Chromosome.cc:26</div></div>
 <div class="ttc" id="aclass_evaluate_html_aae5632c201511cdd64f8f85716a0408a"><div class="ttname"><a href="class_evaluate.html#aae5632c201511cdd64f8f85716a0408a">Evaluate::computeCostFit</a></div><div class="ttdeci">static void computeCostFit(Chromosome &amp;t_chr, TH1F *t_data, TF1 *t_model, double t_Ndof)</div><div class="ttdef"><b>Definition:</b> Evaluate.h:10</div></div>
@@ -112,7 +112,7 @@ $(function() {
 <div class="ttc" id="aclass_chromosome_html_ada8f1a03b6a1287d3c6866dc7d57ed64"><div class="ttname"><a href="class_chromosome.html#ada8f1a03b6a1287d3c6866dc7d57ed64">Chromosome::setCost</a></div><div class="ttdeci">void setCost(double)</div><div class="ttdef"><b>Definition:</b> Chromosome.cc:46</div></div>
 <div class="ttc" id="aclass_chromosome_html_a3722a1159eca6f5274ce769b69b5447a"><div class="ttname"><a href="class_chromosome.html#a3722a1159eca6f5274ce769b69b5447a">Chromosome::setModel</a></div><div class="ttdeci">void setModel(TF1 *)</div><div class="ttdef"><b>Definition:</b> Chromosome.cc:51</div></div>
 <div class="ttc" id="aclass_chromosome_html_a40be4c39ba7d40ef9baa38ea34d04068"><div class="ttname"><a href="class_chromosome.html#a40be4c39ba7d40ef9baa38ea34d04068">Chromosome::setIndicatorUp</a></div><div class="ttdeci">void setIndicatorUp()</div><div class="ttdef"><b>Definition:</b> Chromosome.cc:31</div></div>
-<div class="ttc" id="aclass_evaluate_html_a16a1a916e5a8faa0cb0d208cd4e1a3c7"><div class="ttname"><a href="class_evaluate.html#a16a1a916e5a8faa0cb0d208cd4e1a3c7">Evaluate::computeCostFit</a></div><div class="ttdeci">static void computeCostFit(Population &amp;t_pop, TH1F *t_data, TF1 *t_model, double t_Ndof)</div><div class="ttdef"><b>Definition:</b> Evaluate.h:31</div></div>
+<div class="ttc" id="aclass_evaluate_html_a16a1a916e5a8faa0cb0d208cd4e1a3c7"><div class="ttname"><a href="class_evaluate.html#a16a1a916e5a8faa0cb0d208cd4e1a3c7">Evaluate::computeCostFit</a></div><div class="ttdeci">static void computeCostFit(Population &amp;t_pop, TH1F *t_data, TF1 *t_model, double t_Ndof)</div><div class="ttdoc">Compute the chi2/Ndof for each chromosome in the population</div><div class="ttdef"><b>Definition:</b> Evaluate.h:30</div></div>
 <div class="ttc" id="aclass_population_html"><div class="ttname"><a href="class_population.html">Population</a></div><div class="ttdef"><b>Definition:</b> Population.h:12</div></div>
 <div class="ttc" id="aclass_evaluate_html"><div class="ttname"><a href="class_evaluate.html">Evaluate</a></div><div class="ttdef"><b>Definition:</b> Evaluate.h:6</div></div>
 <!-- start footer part -->

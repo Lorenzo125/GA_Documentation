@@ -83,7 +83,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7266ad7edd2d7e7ce4167dd6e1bca655"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the selection rate.  <a href="class_config.html#a7266ad7edd2d7e7ce4167dd6e1bca655">More...</a><br /></td></tr>
 <tr class="separator:a7266ad7edd2d7e7ce4167dd6e1bca655"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e70a19443167484b4990ac1ddcf15e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_config.html#a6e70a19443167484b4990ac1ddcf15e8">setParameterDomain</a> (const <a class="el" href="class_parameters_domain.html">ParametersDomain</a> &amp;t)</td></tr>
-<tr class="memdesc:a6e70a19443167484b4990ac1ddcf15e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the fitting parameters domain as research domain.  <a href="class_config.html#a6e70a19443167484b4990ac1ddcf15e8">More...</a><br /></td></tr>
+<tr class="memdesc:a6e70a19443167484b4990ac1ddcf15e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the parameters' search domain.  <a href="class_config.html#a6e70a19443167484b4990ac1ddcf15e8">More...</a><br /></td></tr>
 <tr class="separator:a6e70a19443167484b4990ac1ddcf15e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7a4bd86c79e90ba0ffa79fb099e57e57"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_config.html#a7a4bd86c79e90ba0ffa79fb099e57e57">getPopulationSize</a> () const</td></tr>
 <tr class="separator:a7a4bd86c79e90ba0ffa79fb099e57e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,7 +141,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get m_keep <br  />
+<p>Return m_keep <br  />
  <br  />
  Referenced by <a class="el" href="class_population.html#a4eec039650114260d7b434ff174b4716" title="Start the crossover process.">Population::crossover()</a> </p>
 
@@ -169,7 +169,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get the selection rate <br  />
+<p>Return the selection rate <br  />
  <br  />
  Referenced by <a class="el" href="class_population.html#a4eec039650114260d7b434ff174b4716" title="Start the crossover process.">Population::crossover()</a> </p>
 
@@ -197,7 +197,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get the mutation rate <br  />
+<p>Return the mutation rate <br  />
  <br  />
  Referenced by <a class="el" href="class_population.html#aa6c7388e366e2b13029272c0f76f9b8d" title="Start the mutation process.">Population::mutation()</a> </p>
 
@@ -225,7 +225,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get the number of parameters involved <br  />
+<p>Return the number of parameters involved <br  />
  <br  />
  Referenced by <a class="el" href="class_population.html#a4a2d5a08f446c0c6e14e0c60385087a3" title="Population initialization with random starting genes.">Population::init()</a>, <a class="el" href="class_population.html#a4eec039650114260d7b434ff174b4716" title="Start the crossover process.">Population::crossover()</a>, <a class="el" href="class_population.html#aa6c7388e366e2b13029272c0f76f9b8d" title="Start the mutation process.">Population::mutation()</a> </p>
 
@@ -253,7 +253,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get the domain of parameters <br  />
+<p>Returnthe domain of parameters <br  />
  <br  />
  Referenced by <a class="el" href="class_population.html#a4a2d5a08f446c0c6e14e0c60385087a3" title="Population initialization with random starting genes.">Population::init()</a>, <a class="el" href="class_population.html#aa6c7388e366e2b13029272c0f76f9b8d" title="Start the mutation process.">Population::mutation()</a> </p>
 
@@ -281,7 +281,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get the number of chromosomes in the population <br  />
+<p>Return the number of chromosomes in the population <br  />
  <br  />
  Referenced by <a class="el" href="class_population.html#aa6c7388e366e2b13029272c0f76f9b8d" title="Start the mutation process.">Population::mutation()</a> </p>
 
@@ -310,7 +310,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Get m_prob <br  />
+<p>Return m_prob <br  />
  <br  />
  Referenced by <a class="el" href="class_population.html#a4eec039650114260d7b434ff174b4716" title="Start the crossover process.">Population::crossover()</a> </p>
 
@@ -423,7 +423,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set the fitting parameters domain as research domain. </p>
+<p>Set the parameters' search domain. </p>
 
 </div>
 </div>
@@ -476,7 +476,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>number of chromosomes that survives to selection </p>
+<p>Number of chromosomes that survives to selection </p>
 
 </div>
 </div>
@@ -499,7 +499,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>selection rate </p>
+<p>Selection rate </p>
 
 </div>
 </div>
@@ -522,7 +522,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>mutation rate </p>
+<p>Mutation rate </p>
 
 </div>
 </div>
@@ -545,7 +545,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Research domain </p>
+<p>search domain </p>
 
 </div>
 </div>
@@ -568,7 +568,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>number of chromosomes in the population </p>
+<p>Number of chromosomes in the population </p>
 
 </div>
 </div>
@@ -591,7 +591,7 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>vector of probabilities used in Roulette Wheel selection </p>
+<p>Vector of probabilities used in Roulette Wheel selection </p>
 
 </div>
 </div>
