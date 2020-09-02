@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.17"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Genetic Algorithm Fit: Chromosome Class Reference</title>
+<title>The Genetic Algorithm on Least Square Fitting: Chromosome Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Genetic Algorithm Fit
+   <div id="projectname">The Genetic Algorithm on Least Square Fitting
    </div>
   </td>
  </tr>
@@ -75,10 +75,10 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:abc214762ab976ea2efafde96206494f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_chromosome.html#abc214762ab976ea2efafde96206494f0">Chromosome</a> (size_t n)</td></tr>
-<tr class="memdesc:abc214762ab976ea2efafde96206494f0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_chromosome.html">Chromosome</a> default constructor for an <em>n</em> - dimensional search space (- <em>n</em> fitting parameters)  <a href="class_chromosome.html#abc214762ab976ea2efafde96206494f0">More...</a><br /></td></tr>
+<tr class="memdesc:abc214762ab976ea2efafde96206494f0"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_chromosome.html">Chromosome</a> default constructor for a <em>n</em> - dimensional search space (<em>n</em> fitting parameters).  <a href="class_chromosome.html#abc214762ab976ea2efafde96206494f0">More...</a><br /></td></tr>
 <tr class="separator:abc214762ab976ea2efafde96206494f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a338ccd0be45760a452807b277456ba5e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_chromosome.html#a338ccd0be45760a452807b277456ba5e">Chromosome</a> (const std::vector&lt; double &gt; &amp;n_gene)</td></tr>
-<tr class="memdesc:a338ccd0be45760a452807b277456ba5e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_chromosome.html">Chromosome</a> constructor with an assigned vector of genes.  <a href="class_chromosome.html#a338ccd0be45760a452807b277456ba5e">More...</a><br /></td></tr>
+<tr class="memdesc:a338ccd0be45760a452807b277456ba5e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_chromosome.html">Chromosome</a> constructor with an assigned vector of genes,.  <a href="class_chromosome.html#a338ccd0be45760a452807b277456ba5e">More...</a><br /></td></tr>
 <tr class="separator:a338ccd0be45760a452807b277456ba5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13a7368a403b5ab81f07edf1ad860310"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_chromosome.html#a13a7368a403b5ab81f07edf1ad860310">setGene</a> (size_t, double)</td></tr>
 <tr class="separator:a13a7368a403b5ab81f07edf1ad860310"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -91,13 +91,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ada8f1a03b6a1287d3c6866dc7d57ed64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3722a1159eca6f5274ce769b69b5447a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_chromosome.html#a3722a1159eca6f5274ce769b69b5447a">setModel</a> (TF1 *)</td></tr>
 <tr class="separator:a3722a1159eca6f5274ce769b69b5447a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99496bc1a8428277c45b2ce652db80a5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_chromosome.html#a99496bc1a8428277c45b2ce652db80a5">getGene</a> (size_t i)</td></tr>
-<tr class="memdesc:a99496bc1a8428277c45b2ce652db80a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the chromosome's <em>t</em> - gene.  <a href="class_chromosome.html#a99496bc1a8428277c45b2ce652db80a5">More...</a><br /></td></tr>
-<tr class="separator:a99496bc1a8428277c45b2ce652db80a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1404fc8adf128bcc2539fd17af534754"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_chromosome.html#a1404fc8adf128bcc2539fd17af534754">getGene</a> (size_t t)</td></tr>
+<tr class="memdesc:a1404fc8adf128bcc2539fd17af534754"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the chromosome's <em>t</em> - gene.  <a href="class_chromosome.html#a1404fc8adf128bcc2539fd17af534754">More...</a><br /></td></tr>
+<tr class="separator:a1404fc8adf128bcc2539fd17af534754"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9100153fdc7ec5353b10340f4bc1e6e5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_chromosome.html#a9100153fdc7ec5353b10340f4bc1e6e5">getIndicator</a> ()</td></tr>
-<tr class="memdesc:a9100153fdc7ec5353b10340f4bc1e6e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the value of m_indicator <br  />
- <br  />
-  <a href="class_chromosome.html#a9100153fdc7ec5353b10340f4bc1e6e5">More...</a><br /></td></tr>
 <tr class="separator:a9100153fdc7ec5353b10340f4bc1e6e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40be4c39ba7d40ef9baa38ea34d04068"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_chromosome.html#a40be4c39ba7d40ef9baa38ea34d04068">setIndicatorUp</a> ()</td></tr>
 <tr class="separator:a40be4c39ba7d40ef9baa38ea34d04068"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,7 +142,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_chromosome.html">Chromosome</a> default constructor for an <em>n</em> - dimensional search space (- <em>n</em> fitting parameters) </p>
+<p><a class="el" href="class_chromosome.html">Chromosome</a> default constructor for a <em>n</em> - dimensional search space (<em>n</em> fitting parameters). </p>
 
 </div>
 </div>
@@ -165,7 +162,7 @@ Friends</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_chromosome.html">Chromosome</a> constructor with an assigned vector of genes. </p>
+<p><a class="el" href="class_chromosome.html">Chromosome</a> constructor with an assigned vector of genes,. </p>
 
 </div>
 </div>
@@ -216,8 +213,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a99496bc1a8428277c45b2ce652db80a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99496bc1a8428277c45b2ce652db80a5">&#9670;&nbsp;</a></span>getGene()</h2>
+<a id="a1404fc8adf128bcc2539fd17af534754"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1404fc8adf128bcc2539fd17af534754">&#9670;&nbsp;</a></span>getGene()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226,7 +223,7 @@ Friends</h2></td></tr>
           <td class="memname">double Chromosome::getGene </td>
           <td>(</td>
           <td class="paramtype">size_t&#160;</td>
-          <td class="paramname"><em>i</em></td><td>)</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -250,11 +247,9 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Return the value of m_indicator <br  />
+<p>Return the value of m_indicator. <br  />
  <br  />
- </p>
-<p>Referenced by <a class="el" href="class_evaluate.html#aae5632c201511cdd64f8f85716a0408a">Evaluate::computeCostFit()</a> </p>
+ Referenced by <a class="el" href="class_evaluate.html#aae5632c201511cdd64f8f85716a0408a">Evaluate::computeCostFit()</a> </p>
 
 </div>
 </div>
@@ -301,7 +296,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Set the cost of the chromosomes <br  />
+<p>Set the cost of the chromosome. <br  />
  <br  />
  Referenced by <a class="el" href="class_evaluate.html#aae5632c201511cdd64f8f85716a0408a">Evaluate::computeCostFit()</a> </p>
 
@@ -332,9 +327,9 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Set the chromosome's <em>t</em> - gene <br  />
+<p>Set the chromosome's <em>t</em> - gene. <br  />
  <br  />
- Referenced by <a class="el" href="class_population.html#a4a2d5a08f446c0c6e14e0c60385087a3" title="Population initialization with random starting genes.">Population::init()</a>, <a class="el" href="class_population.html#a4eec039650114260d7b434ff174b4716" title="Start the crossover process.">Population::crossover()</a>, Population::muation() </p>
+ Referenced by <a class="el" href="class_population.html#a4a2d5a08f446c0c6e14e0c60385087a3" title="Population initialization with random starting genes.">Population::init()</a>, <a class="el" href="class_population.html#a4eec039650114260d7b434ff174b4716" title="Start the crossover process.">Population::crossover()</a>, <a class="el" href="class_population.html#aa6c7388e366e2b13029272c0f76f9b8d" title="Start the mutation process.">Population::mutation()</a> </p>
 
 </div>
 </div>
@@ -352,7 +347,9 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Set the value of the indicator equal to 0 Referenced by <a class="el" href="class_evaluate.html#aae5632c201511cdd64f8f85716a0408a">Evaluate::computeCostFit()</a> </p>
+<p>Set the value of the indicator equal to 0. <br  />
+ <br  />
+ Referenced by <a class="el" href="class_evaluate.html#aae5632c201511cdd64f8f85716a0408a">Evaluate::computeCostFit()</a> </p>
 
 </div>
 </div>
@@ -370,7 +367,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Set the value of the indicator equal to 1; <br  />
+<p>Set the value of the indicator equal to 1. <br  />
  <br  />
  Referenced by <a class="el" href="class_evaluate.html#aae5632c201511cdd64f8f85716a0408a">Evaluate::computeCostFit()</a> </p>
 
@@ -391,7 +388,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Set the parameters of the model equal to genes of the chromosome <br  />
+<p>Set the parameters of the model equal to the values of the genes in the chromosome. <br  />
  <br  />
  Referenced by <a class="el" href="class_evaluate.html#aae5632c201511cdd64f8f85716a0408a">Evaluate::computeCostFit()</a> </p>
 
@@ -411,7 +408,7 @@ Friends</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Return the number of genes <br  />
+<p>Return the number of genes. <br  />
  <br  />
  Referenced by <a class="el" href="class_population.html#a4a2d5a08f446c0c6e14e0c60385087a3" title="Population initialization with random starting genes.">Population::init()</a>, <a class="el" href="class_population.html#a4eec039650114260d7b434ff174b4716" title="Start the crossover process.">Population::crossover()</a>, <a class="el" href="class_population.html#aa6c7388e366e2b13029272c0f76f9b8d" title="Start the mutation process.">Population::mutation()</a> </p>
 
@@ -514,7 +511,7 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Cost of the chromosome </p>
+<p>Cost of the chromosome. </p>
 
 </div>
 </div>
@@ -537,7 +534,7 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>Vector storing the genes of the chromosome </p>
+<p>Vector storing the genes of the chromosome. </p>
 
 </div>
 </div>
@@ -560,7 +557,7 @@ Friends</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<p>When the indicator equals 0, the cost needs to be revaluated </p>
+<p>When the indicator equals 0, the cost needs to be revaluated. </p>
 
 </div>
 </div>
