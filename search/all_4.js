@@ -4,7 +4,7 @@ var searchData=
   ['getchromosome_15',['getChromosome',['../class_population.html#a3479e2db642167cb0e91c4814beb6d54',1,'Population']]],
   ['getconfig_16',['getConfig',['../class_population.html#a2937dfc414bceb8d02a03b32ac94e080',1,'Population']]],
   ['getcost_17',['getCost',['../class_chromosome.html#ab50718bcfcaec3fdcf91f65902d77de0',1,'Chromosome']]],
-  ['getgene_18',['getGene',['../class_chromosome.html#a99496bc1a8428277c45b2ce652db80a5',1,'Chromosome']]],
+  ['getgene_18',['getGene',['../class_chromosome.html#a1404fc8adf128bcc2539fd17af534754',1,'Chromosome']]],
   ['getindicator_19',['getIndicator',['../class_chromosome.html#a9100153fdc7ec5353b10340f4bc1e6e5',1,'Chromosome']]],
   ['getkeep_20',['getKeep',['../class_config.html#ac9227459dec38814a9e16e3a70453084',1,'Config']]],
   ['getkeepfraction_21',['getKeepFraction',['../class_config.html#a09153bfcd4af8684856dd233b743cae7',1,'Config']]],

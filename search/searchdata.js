@@ -3,7 +3,7 @@ var indexSectionsWithContent =
   0: "cdefgimops",
   1: "cep",
   2: "cdefp",
-  3: "cgimops",
+  3: "cdgimops",
   4: "m",
   5: "o"
 };
